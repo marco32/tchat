@@ -1,0 +1,62 @@
+
+<!doctype html>
+<html>
+<head>
+  <title>Socket.IO chat</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="connect" class="container">
+<h2>Login</h2>
+<fieldset class="cadre">
+<label for="Pseudo">Pseudo</label>
+  <input type="text" id="Pseudo" name="pseudo" placeholder="Votre pseudo" value=""/>
+  <input type="button" id="Valid" value="Valider">
+</fieldset>
+</div>
+<main>
+  <div class="container">
+   <div class="row">
+     <div class="col s4 push-s8">
+     <div class="vue">
+       
+      <h4 >En ligne</h4>
+     </div>
+     <div class="vue-plus" >
+       
+        <ul id="user"></ul>     
+     </div>
+      </div>
+      <div class="col s8 pull-s4 min">
+        <div>
+          
+        <h4>Messages</h4>
+        </div>
+        <div id="messages" class="col s6 aff">
+        
+        </div>
+     </div>
+    </div>
+  <div id="userD"></div>
+  </div>
+</main>
+<footer>
+  <div class="footer-copyright">
+    <div class="container">
+      <form action="">
+        <input id="m" autocomplete="off" /><button>Send</button>
+      </form>
+    </div>
+  </div>
+</body>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+  <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+  <script src="js/moment.js"></script>
+  <script src="js/app.js"></script>
+</footer>
+</html>

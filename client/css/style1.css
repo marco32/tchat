@@ -1,0 +1,45 @@
+body{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+/*main{*/
+	flex: 1 0 auto;
+	display: none;
+}
+footer{
+	margin-bottom: 0px;
+	display: none;
+}
+.test{
+	display: none;
+}
+.auch{
+	display: none;
+}
+.img{
+  	border-radius: 50%;;
+  	size: 20px
+}
+.aff{
+	display: grid;
+}
+.chip{
+	height: auto;
+}
+.vue{
+	position: fixed;
+}
+.plus{
+	margin-top: 5%;
+}
+.cadre{
+	margin-top: 10%;
+	background: black;
+	color: white;
+}
+h2{
+	text-align: center;
+	margin-top: 15%;
+	color: grey;
+}
